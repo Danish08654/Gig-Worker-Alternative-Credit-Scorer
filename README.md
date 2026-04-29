@@ -10,12 +10,13 @@ What It Does
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
 
-   
 1) Start the API 
 
 
 1.1 cd api
+
 1.2 pip install -r requirements.txt
+
 1.3 uvicorn main:app --reload
 
 
@@ -23,7 +24,9 @@ What It Does
 
    
 2.1 cd frontend
+
 2.2 pip install streamlit plotly requests
+
 2.3 streamlit run app.py
 
 
