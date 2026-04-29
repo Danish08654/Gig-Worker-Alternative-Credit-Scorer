@@ -9,7 +9,8 @@ What It Does
 4) Serves predictions via a FastAPI REST endpoint
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
-1) Start the API 
+
+1 Start the API 
 
 1.1 cd api
 
@@ -25,9 +26,8 @@ What It Does
 
 2.3 streamlit run app.py
 
-Model Performance
 
-MetricValue
+3) Model Performance
 
 ROC-AUC
 
