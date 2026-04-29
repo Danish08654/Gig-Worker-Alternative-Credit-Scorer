@@ -10,7 +10,9 @@ What It Does
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
 
+   
 1) Start the API 
+
 
 1.1 cd api
 1.2 pip install -r requirements.txt
@@ -18,12 +20,14 @@ What It Does
 
 
 2) Start the dashboard
+
+   
 2.1 cd frontend
 2.2 pip install streamlit plotly requests
 2.3 streamlit run app.py
 
 
-3) Model Performance
+4) Model Performance
 
 ROC-AUC
 
@@ -36,6 +40,8 @@ splitImbalance
 handlingscale_pos_weight
 
 StoppingEarly stopping (50 rounds)
+
+
 
 What I Learned
 
