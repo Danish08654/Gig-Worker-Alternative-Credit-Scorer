@@ -5,7 +5,7 @@ What It Does
 
 1) Scores a gig worker's default risk using 14 engineered financial features
 2) Returns a 300–850 credit score, a risk tier, and a loan decision
-3) Explains every decision with SHAP — listing exact risk and protective factors
+3) Explains every decision with SHAP listing exact risk and protective factors
 4) Serves predictions via a FastAPI REST endpoint
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
@@ -13,18 +13,13 @@ What It Does
 1) Start the API 
 
 1.1 cd api
-
 1.2 pip install -r requirements.txt
-
 1.3 uvicorn main:app --reload
 
 
 2) Start the dashboard
-
 2.1 cd frontend
-
 2.2 pip install streamlit plotly requests
-
 2.3 streamlit run app.py
 
 
